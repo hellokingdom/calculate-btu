@@ -5,6 +5,11 @@ export default DireflowComponent.create({
   component: App,
   configuration: {
     tagname: "calculate-btu",
-    useShadow: false,
+    useShadow: true,
   },
+  plugins: [
+    {
+      name: "material-ui",
+    },
+  ],
 });
